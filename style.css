@@ -1,0 +1,75 @@
+.container{
+   
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panels{
+    display: flex;
+    width: 90vw;
+}
+.panel-one{
+    background:url(images/one.jpg)no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position:center;
+    height: 80vh;
+    margin-right: 5px;
+    flex: 0.5;
+    cursor: pointer;
+    transition: flex 0.7s ease-in;
+}
+
+.panel-two{
+    background:url(images/two.jpg)no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    height: 80vh;
+    margin-right: 5px;
+    flex: 0.5;
+    cursor: pointer;
+    transition: flex 0.7s ease-in;
+}
+.panel-three{
+    background:url(images/three.jpg)no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position:center;
+    height: 80vh;
+    margin-right: 5px;
+    flex: 0.5;
+    cursor: pointer;
+    transition: flex 0.7s ease-in;
+}
+
+.panel-four{
+    background:url(images/four.jpg)no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+    background-position:center;
+    margin-right: 5px;
+    flex: 0.5;
+    cursor: pointer;
+    transition: flex 0.7s ease-in;
+   
+}
+
+.panel h4{
+    color:white;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    opacity: 0;
+}
+
+.active {
+    flex: 5;
+}
+
+.panel.active h4{
+    opacity: 1;
+}
